@@ -18,6 +18,11 @@ import { NavbarMiddleComponent } from './components/navbar-middle/navbar-middle.
 import { NavbarRightComponent } from './components/navbar-right/navbar-right.component';
 import { CreatePostComponent } from './components/create-post/create-post.component';
 import { PostsComponent } from './components/posts/posts.component';
+import { ProfilePageComponent } from './components/profile-page/profile-page.component';
+import { ProfileNavbarComponent } from './components/profile-navbar/profile-navbar.component';
+import { ProfileNavbarMiddleComponent } from './components/profile-navbar-middle/profile-navbar-middle.component';
+import { ProfileMiddleComponent } from './components/profile-middle/profile-middle.component';
+import { ProfileRightComponent } from './components/profile-right/profile-right.component';
 
 
 @NgModule({
@@ -34,7 +39,12 @@ import { PostsComponent } from './components/posts/posts.component';
     NavbarMiddleComponent,
     NavbarRightComponent,
     CreatePostComponent,
-    PostsComponent
+    PostsComponent,
+    ProfilePageComponent,
+    ProfileNavbarComponent,
+    ProfileNavbarMiddleComponent,
+    ProfileMiddleComponent,
+    ProfileRightComponent
   ],
   imports: [
     BrowserModule,

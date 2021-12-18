@@ -5,6 +5,7 @@ import { LoginComponent } from './components/login/login.component';
 import { AppComponent } from './app.component';
 import { TwitterGuard } from './gaurds/twitter.guard';
 import { HomeComponent } from './components/home/home.component';
+import { ProfilePageComponent } from './components/profile-page/profile-page.component';
 
 const routes: Routes =[
   {
@@ -16,6 +17,10 @@ const routes: Routes =[
   {
     path:'login',
     component: LoginComponent
+  },
+  {
+    path:'profile',
+    component: ProfilePageComponent
   }
 ]
 
