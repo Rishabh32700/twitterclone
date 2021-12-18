@@ -1,0 +1,29 @@
+
+<div class="login-container">
+     <header class="login__header">
+        <div class="login__header__right">
+            <mat-card class="login__header__right__card">
+                <mat-card-content class="content">
+                    <img src="assets/twitter.png" alt="">
+                    <h1>Enter your username and password</h1>
+                    <form #form="ngForm" class="login-form" (ngSubmit)="login(form)">
+                        <input class="emailinput" type="text" name="email" ngModel placeholder="Email address or Phone Number" required>
+                        <input class="passwordinput" type="password" name="password" ngModel placeholder="password" required>
+            
+                        <a href="#">Forgot password?</a>
+            
+                        <button type="submit"
+                            class="login-button"
+                            [disabled]="form.invalid || form.pending">
+                            Log in
+                        </button>
+            
+                        <p>Don't have an account?<a href="#" class="create_account" (click)="openRegister()">Sign up</a></p>
+                    </form>
+                </mat-card-content>
+             </mat-card>
+
+         </div>
+
+     </header>
+</div>

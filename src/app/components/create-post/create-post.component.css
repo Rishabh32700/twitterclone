@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.tweet{
+    display: flex;
+    margin-left: 30px;
+
+}
+
+.belowtweet{
+    margin-top: 20px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dp{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+input{
+    background-color: transparent;
+    margin-left: 20px;
+    border: none;
+    width: 98%;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.icons{
+
+    margin-left: 10px;
+}
+i{
+    color: #4381c3;
+    margin-left: 20px;
+}
+
+button{
+    margin-right: 20px;
+    padding: 10px;
+    width: 80px;
+    border-radius: 50px;
+    border: none;
+    background-color: #6bacf1;
+    color: white;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+button:disabled{
+    background-color: #3a5e85;
+    color: grey;
+    cursor: not-allowed;
+}
+
+.button:hover{
+    cursor: pointer;
+}

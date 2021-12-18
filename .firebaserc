@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "twitterclone-eb076": {
+      "hosting": {
+        "twitterclone": [
+          "twitterclone-eb076"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "twitterclone-eb076"
+  }
+}

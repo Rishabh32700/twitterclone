@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.login-container {
+    background-color: #242D34;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+}
+
+.login__header {
+    margin: auto;
+    height: 79vh;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login__header .login__header__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+
+}
+
+.login__header .login__header__right .login__header__right__card {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__header .login__header__right .login__header__right__card img {
+    max-height: 4vh;
+    max-width: 4.2vw;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.login__header .login__header__right .login__header__right__card h1 {
+    color: #D9D2C5;
+    align-self: flex-start;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+input {
+    width: 90%;
+    background-color: #101113;
+    border: none;
+    border-radius: 5px;
+    padding: 23px;
+    margin-bottom: 25px;
+}
+
+.passwordinput{
+    margin-bottom: 0px;
+    background-color: black;
+    border: 1px solid #202122;
+}
+
+input:focus{
+    background-color: black;
+    border: 2px solid #4F9CF0;
+}
+
+a{
+    color: #4F9CF0;
+    text-decoration: none;
+}
+
+button{
+    width: 100%;
+    background-color: #77797A;
+    margin-top: 32%;
+    padding: 13px;
+    border-radius: 50px;
+    color: black;
+    font-weight: 600;
+}
+
+p{
+    color: rgb(119, 121, 122);
+    margin-top: 50px;
+}

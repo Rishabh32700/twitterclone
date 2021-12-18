@@ -1,0 +1,60 @@
+.container{
+    margin-top: 10px;
+}
+
+.para1{
+    margin-left: 50px;
+    color: grey;
+}
+
+.para1 i{
+    margin-right: 10px;
+}
+
+.profile{
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+}
+
+.dp img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.underprofile{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.underprofile a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.underprofile .atTheRate{
+    text-decoration: none;
+    color: #4A92E2;
+}
+
+.atTheRate span{
+    color: white;
+    font-size: 15px;
+}
+
+video{
+    display: block;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 50px;
+}
+
+.icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
