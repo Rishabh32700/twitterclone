@@ -1,4 +1,4 @@
-h1{
+h1, p{
     display: inline;
     padding-left: 200px;
     font-weight: 700;
@@ -6,5 +6,10 @@ h1{
 }
 i{
     display: inline;
-    margin-left: 580px;
+    margin-left: 10px;
+    margin-right: 520px;
+}
+p{
+    color: grey;
+    font-weight: 500;
 }

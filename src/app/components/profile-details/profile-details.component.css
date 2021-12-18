@@ -1,0 +1,103 @@
+.container{
+    background-color: black;
+    height: auto;
+    width: 45vw;
+    margin-top: 10vh;
+    border-left: 2px solid grey;
+    border-right: 2px solid grey;
+    position: relative;
+    left: 26vw;
+    overflow: scroll;
+}
+
+.container img{
+    width: 100%;
+}
+
+.dp{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: -80px;
+    left: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dp img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.dots{
+    border: 1px solid grey;
+    padding: 10px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    position: absolute;
+    left: 78%;
+    top: 32%;
+    font-size: 23px;
+    font-weight: 800;
+    border-radius: 50%;
+}
+
+button{
+    position: absolute;
+    right: 0;
+    top: 32%;
+    left: 85%;
+    padding: 10px;
+    width: 80px;
+    border: none;
+    border-radius: 50px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+} 
+
+.name h3, .name .para1{
+    position: relative;
+    top: -50px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 0;
+}
+.name i{
+    position: relative;
+    top: -76px;
+    left: 120px;
+}
+
+
+.name .para1{
+    font-weight: 500;
+    font-size: 15px;
+    color: grey;
+}
+
+.para2{
+    margin-left: 30px;
+    margin-top: -40px;
+}
+
+.para2 span{
+    color: grey;
+}
+
+.para2 i{
+    position: relative;
+    top: 0px;
+    left:0px;
+    color: grey;
+}
+
+.para2 a{
+    color: #4F9CF0;
+    text-decoration: none;
+}

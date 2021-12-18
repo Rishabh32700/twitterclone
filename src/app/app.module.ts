@@ -23,6 +23,8 @@ import { ProfileNavbarComponent } from './components/profile-navbar/profile-navb
 import { ProfileNavbarMiddleComponent } from './components/profile-navbar-middle/profile-navbar-middle.component';
 import { ProfileMiddleComponent } from './components/profile-middle/profile-middle.component';
 import { ProfileRightComponent } from './components/profile-right/profile-right.component';
+import { ProfileDetailsComponent } from './components/profile-details/profile-details.component';
+import { ProfilePostsComponent } from './components/profile-posts/profile-posts.component';
 
 
 @NgModule({
@@ -44,7 +46,9 @@ import { ProfileRightComponent } from './components/profile-right/profile-right.
     ProfileNavbarComponent,
     ProfileNavbarMiddleComponent,
     ProfileMiddleComponent,
-    ProfileRightComponent
+    ProfileRightComponent,
+    ProfileDetailsComponent,
+    ProfilePostsComponent
   ],
   imports: [
     BrowserModule,

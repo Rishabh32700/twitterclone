@@ -1,11 +1,4 @@
 .container{
-    background-color: black;
-    height: 100vh;
-    width: 45vw;
-    margin-top: 10vh;
-    border-left: 2px solid grey;
-    border-right: 2px solid grey;
-    position: relative;
-    left: 26vw;
-    overflow: scroll;
-}
+    display: flex;
+    flex-direction: column;
+}   
