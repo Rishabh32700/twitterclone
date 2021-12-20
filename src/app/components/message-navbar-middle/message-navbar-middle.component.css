@@ -1,0 +1,14 @@
+h1{
+    display: inline;
+    padding-left: 200px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.fa-cog{
+    display: inline;
+    margin-left: 180px;
+}
+
+.fa-envelope{
+    margin-left: 20px;
+}

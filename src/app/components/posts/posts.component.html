@@ -6,7 +6,7 @@
     <div class="profile">
         <div class="dp"><img src="assets/amit.jpg" alt=""></div>
         <div class="underprofile">
-            <a href="#">Amit Shah <i class="fas fa-badge-check"></i><span> @AmitShah · Dec 4</span></a>
+            <a routerLink="/profile">Amit Shah <i class="fas fa-badge-check"></i><span> @AmitShah · Dec 4</span></a>
             <a href="" class="atTheRate">@BSF_India <span> के जवानों के साथ बैठकर देशभक्ति के गीतों को सुना। <br><br>यह मेरे जीवन के अविस्मरणीय पलों में से एक है। <br><br>
                 अपने परिवार से दूर राष्ट्रभक्ति के इस सराहनीय जज्बे के साथ देश की सीमाओं की रक्षा कर रहे सभी जवानों की बहादुरी व समर्पण को नमन करता हूँ। Folded handsFolded hands </span></a>
         </div>
@@ -15,8 +15,11 @@
         <source src="assets/video1.mp4" type="video/mp4">
       </video>
       <div class="icons">
-          <i class="fal fa-comment fa-lg"></i>
+
+          <i (click)="openDialog()" class="fal fa-comment fa-lg"></i>
           <i class="fa fa-retweet fa-lg" aria-hidden="true"></i>
           <i class="fal fa-heart fa-lg"></i>
       </div>
 </div>
+
+<!-- <button mat-button (click)="openDialog()">Open dialog</button> -->

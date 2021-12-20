@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+i{
+    display: block;
+}
+
+
+
+.nameAndDesignation{
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+h1{
+    margin-left: 20px;
+    display: inline;
+    font-size: 15px;
+}
+
+h1 span{
+    color: grey;
+}
+.fa-badge-check{
+    display: inline;
+    color: white;
+}
+
+.headingAndPara{
+    display: flex;
+    flex-direction: column;
+
+}

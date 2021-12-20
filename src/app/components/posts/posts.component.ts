@@ -1,4 +1,10 @@
+import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import {MatDialog} from '@angular/material/dialog';
+import { CommentModalComponent } from '../comment-modal/comment-modal.component';
+import { HomeComponent } from '../home/home.component';
+
+
 
 @Component({
   selector: 'app-posts',
@@ -7,9 +13,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostsComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
+  openDialog() {
+    const dialogRef = this.dialog.open(CommentModalComponent);
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
 
   ngOnInit(): void {
   }
 
 }
+
+
+
