@@ -6,16 +6,17 @@
         <div class="dp">
             R
         </div>
-        <input type="text" placeholder="What's happening?">
+        <input type="text" placeholder="What's happening?" #TweetText>
     </div>
     <div class="belowtweet">
         <div class="icons">
-            <i class="far fa-image fa-lg"></i>
+            
+            <i class="far fa-image fa-lg"><input type="file" (change)="upload($event)" accept="image/*"></i>
             <i class="fas fa-poll-h fa-lg"></i>
             <i class="far fa-smile-beam fa-lg"></i>
             <i class="far fa-calendar fa-lg"></i>
             <i class="fas fa-map-marker-alt fa-lg"></i>
         </div>
-        <button type="button" disabled>Tweet</button>
+        <button (click)="uploadImage(TweetText)" type="button">Tweet</button>
     </div>
 </div>

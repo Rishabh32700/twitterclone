@@ -15,3 +15,8 @@ body {
     display: none;
 }
 
+.mat-dialog-container{
+    background-color: black;
+    width: 600px;
+    height: 465px;
+}

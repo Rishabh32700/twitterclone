@@ -1,5 +1,6 @@
 .container{
     margin-top: 10px;
+    /* margin-bottom: 50px; */
 }
 
 .para1{
@@ -46,10 +47,10 @@
     font-size: 15px;
 }
 
-video{
+img{
     display: block;
-    margin-top: 10px;
-    margin-left: 100px;
+ margin: auto;
+ width: 100%;
     border-radius: 50px;
 }
 
